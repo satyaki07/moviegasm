@@ -1,0 +1,128 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #0c1e33;
+  padding: 1rem;
+}
+
+nav h1 {
+  color: #a0a7af;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("https://images.unsplash.com/photo-1597002973885-8c90683fa6e0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  width: 100%;
+}
+
+.genreList {
+  background-color: #0c1e33;
+  color: #fff;
+  display: flex;
+  margin: 1rem auto;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 70%;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.genreButton {
+  cursor: pointer;
+  text-transform: capitalize;
+  transition: 0.1s all;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.genreButton:hover {
+  background-color: #a0a7af;
+}
+
+.movieList {
+  width: 70%;
+  margin: 1.5rem auto;
+  color: white;
+}
+
+.movie-image {
+  /* border-radius: 50%; */
+  width: 20%;
+  display: block;
+  height: 200px;
+  margin: 1rem;
+  box-shadow: 4px 3px 10px #000;
+}
+
+.listMovie {
+  background-color: rgba(12, 30, 51, 0.3);
+  /* opacity: 0.1; */
+  width: 70%;
+  /* padding: 0.5rem; */
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #0c1e33;
+}
+
+.movie-details {
+  margin: 0 1px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-name {
+  font-size: larger;
+}
+
+.runtime {
+  color: #b7bbbf;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.director-name {
+  font-weight: lighter;
+}
+
+.imdb {
+  margin-top: 0.3rem;
+  color: #b7bbbf;
+}
+
+.rating {
+  font-weight: lighter;
+}
+
+.summary {
+  margin: 5px;
+}
+
+footer {
+  background-color: #0c1e33;
+  width: 100%;
+  bottom: 0;
+  /* position: absolute; */
+  padding: 1.5rem;
+}
+
+footer p {
+  color: #a0a7af;
+}
